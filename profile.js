@@ -16,7 +16,7 @@ const displayUser = () => {
 
 const logOut = () => {
   if (localStorage.getItem("userState")) localStorage.removeItem("userState");
-  window.location.href = "/";
+  window.location.href = "/accio-f3-contest2";
 };
 
 const isAccessToken = () => {
