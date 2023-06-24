@@ -1,7 +1,7 @@
 window.onload = () => {
   if (!isAccessToken()) {
     alert("Please Sign Up First");
-    window.location.href = "/index.html";
+    window.location.href = "/";
   }
   displayUser();
 };
@@ -16,7 +16,7 @@ const displayUser = () => {
 
 const logOut = () => {
   if (localStorage.getItem("userState")) localStorage.removeItem("userState");
-  window.location.href = "/index.html";
+  window.location.href = "/";
 };
 
 const isAccessToken = () => {
