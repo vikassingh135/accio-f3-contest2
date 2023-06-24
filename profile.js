@@ -1,7 +1,7 @@
 window.onload = () => {
   if (!isAccessToken()) {
     alert("Please Sign Up First");
-    window.location.href = "/";
+    window.location.href = "/accio-f3-contest2";
   }
   displayUser();
 };
